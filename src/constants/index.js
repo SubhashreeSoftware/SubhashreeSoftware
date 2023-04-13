@@ -4,29 +4,24 @@ import {
     creator,
     web,
     javascript,
-    typescript,
     html,
     css,
     reactjs,
-    redux,
     tailwind,
-    nodejs,
     mongodb,
     git,
     figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
+    Quantumware,
+  devineai,
+  arltech,
+  rec,
+  hotel,
+  arl,
     threejs,
     meblue1,
     Bootstrap,
     PHP,
-  Python
+  Python,
   } from "../assets";
   
   export const navLinks = [
@@ -99,30 +94,14 @@ import {
       name: "Python",
       icon: Python,
     },
-    // {
-    //   name: "TypeScript",
-    //   icon: typescript,
-    // },
     {
       name: "React JS",
       icon: reactjs,
     },
-    // {
-    //   name: "Redux Toolkit",
-    //   icon: redux,
-    // },
     {
       name: "Tailwind CSS",
       icon: tailwind,
     },
-    // {
-    //   name: "Node JS",
-    //   icon: nodejs,
-    // },
-    // {
-    //   name: "MongoDB",
-    //   icon: mongodb,
-    // },
     {
       name: "Three JS",
       icon: threejs,
@@ -143,55 +122,41 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "React Native & React.js Developer",
+      company_name: "Arl-Tech",
+      icon: arltech,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "August 2022 - April 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
+        "As a front-end developer, I have designed and developed a website, customer app, supplier app, and transporter app with clean and intuitive interfaces, ensuring a smooth user experience.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Utilized technologies - ReactJS, React Native.",
       ],
     },
     {
       title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      company_name: "Devine-AI",
+      icon: devineai,
+      iconBg: "#E6DEDD",
+      date: "June 2021 - August 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Developed a hotel management system, allowing hotel staff to manage room reservations, guest information, and payment transactions.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Collaborate with other development teams.",
+        "Lang - HTML,CSS, Bootstrap,JS",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      title: "Web Developer",
+      company_name: "Quantumware Technical Services",
+      icon: Quantumware,
+      iconBg: "#383E56",
+      date: "Jan 2021 - June 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Successfully designed and developed a school project management system for Scholars School, Berhampur and a responsive and dynamic college website for REC College, bbsr.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
+        "Lang - HTML,CSS, Bootstrap,JS, PHP",
       ],
     },
   ];
@@ -225,67 +190,67 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Application",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "The app's main purpose is to help users find and order construction materials quickly and easily. This can save time and money by streamlining the purchasing process and reducing the need for multiple trips to different stores.",
       tags: [
         {
-          name: "react",
+          name: "react native",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "python",
+          color: "green-text-gradient",
+        },
+      ],
+      image: arl,
+      source_code_link: "https://play.google.com/store/apps/details?id=com.alrtech.alrtech",
+    },
+    {
+      name: "Hotel Website",
+      description:
+        "The Petal Regency Hotel website is a digital platform that provides information about the hotel, its amenities. The website features a clean and modern design with a prominent header image showcasing the hotel's exterior inviting visitors to book a stay.",
+      tags: [
+        {
+          name: "Html",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "CSS",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Bootstrap",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: hotel,
+      source_code_link: "http://hotel.petalregency.com/",
     },
     {
-      name: "Job IT",
+      name: "College Website",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Overall, REC, Bhubaneswar college website serves as a central hub for the college community to access important information, stay up-to-date on news and events, and connect with various resources and services.",
       tags: [
         {
-          name: "react",
+          name: "Html",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
+          name: "Bootstrap",
           color: "green-text-gradient",
         },
         {
           name: "css",
           color: "pink-text-gradient",
         },
+        {
+          name: "PHP",
+          color: "green-text-gradient",
+        },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: rec,
+      source_code_link: "http://www.rec.ac.in/",
     },
   ];
   

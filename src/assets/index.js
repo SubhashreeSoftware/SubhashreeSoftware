@@ -7,32 +7,26 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import css from "./tech/css.png";
-import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import Bootstrap from "./tech/Bootstrap.png";
 import javascript from "./tech/javascript.png";
-import mongodb from "./tech/mongodb.png";
-import nodejs from "./tech/nodejs.png";
 import PHP from "./tech/PHP.png";
 import Python from "./tech/Python.png";
 import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import arltech from "./company/arltech.png";
+import devineai from "./company/devineai.png";
+import Quantumware from "./company/Quantumware-logo.png";
 import meblue1 from "./meblue1.png";
 import laptophand2 from "./laptophand2.jpg";
 import m1 from "./m1.png";
 import m3 from "./m3.png";
+import rec from "./rec.png";
+import hotel from "./hotel.png";
+import arl from "./arltech.png";
 
 export {
   logo,
@@ -44,30 +38,25 @@ export {
   menu,
   close,
   css,
-  docker,
   figma,
   git,
   html,
   javascript,
-  mongodb,
-  nodejs,
   reactjs,
-  redux,
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+  Quantumware,
+  devineai,
+  arltech,
   meblue1,
   laptophand2,
   m1,
   m3,
   Bootstrap,
   PHP,
-  Python
+  Python,
+  arl,
+  rec,
+  hotel
 };
