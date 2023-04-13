@@ -8,7 +8,6 @@ import {
     css,
     reactjs,
     tailwind,
-    mongodb,
     git,
     figma,
     Quantumware,

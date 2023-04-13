@@ -44,7 +44,6 @@ export {
   javascript,
   reactjs,
   tailwind,
-  typescript,
   threejs,
   Quantumware,
   devineai,

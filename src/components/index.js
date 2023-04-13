@@ -1,5 +1,4 @@
-import { EarthCanvas,BoxCanvas,  BallCanvas, ComputersCanvas, StarsCanvas, MyComputer } from './canvas';
-import Hero from "./Hero";
+import { EarthCanvas,  BallCanvas,  StarsCanvas } from './canvas';
 import Navbar from "./Navbar";
 import About from "./About";
 import Aboutme from "./Aboutme";
@@ -13,7 +12,6 @@ import LetsWork from "./LetsWork";
 
 
 export {
-  Hero,
   Navbar,
   About,
   Tech,
@@ -24,10 +22,7 @@ export {
   CanvasLoader,
   EarthCanvas, 
   BallCanvas, 
-  ComputersCanvas, 
   StarsCanvas,
-  MyComputer,
   Aboutme,
   LetsWork,
-  BoxCanvas
 };
