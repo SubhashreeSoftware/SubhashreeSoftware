@@ -8,7 +8,7 @@ import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 import Typed from "react-typed";
 
-const ServiceCard = ({ index, title, icon }) => (
+const ServiceCard = ({ index, title, icon, price }) => (
   <Tilt className='xs:w-[250px] w-full'>
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
@@ -32,6 +32,9 @@ const ServiceCard = ({ index, title, icon }) => (
         <h3 className='text-white text-[20px] font-bold text-center'>
           {title}
         </h3>
+        <h3 className='text-white text-[15px] font-bold text-center'>
+          Starting From {price} INR
+        </h3>
       </div>
     </motion.div>
   </Tilt>
@@ -41,8 +44,8 @@ const About = ({ index, title, icon }) => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Hello! I'm a UI Developer.</h2>
+        <p className={styles.sectionSubText}>Start A Project</p>
+        <h2 className={styles.sectionHeadText}>Interested In Working Together ?</h2>
         {/* <Typed 
                 className="typed-text"
                 strings={["Web Designer","Web Development","Application Development"]}
@@ -59,11 +62,7 @@ const About = ({ index, title, icon }) => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        We Should queue up a time chat.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

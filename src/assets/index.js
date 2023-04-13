@@ -27,6 +27,9 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import meblue1 from "./meblue1.png";
+import laptophand2 from "./laptophand2.jpg";
+import m1 from "./m1.png";
+import m3 from "./m3.png";
 
 export {
   logo,
@@ -57,5 +60,8 @@ export {
   carrent,
   jobit,
   tripguide,
-  meblue1
+  meblue1,
+  laptophand2,
+  m1,
+  m3
 };

@@ -10,15 +10,15 @@ import {
 
 import CanvasLoader from "../Loader";
 
-const Ball = (props) => {
+const Box = (props) => {
   const [decal] = useTexture([props.imgUrl]);
 
   return (
     <Float speed={1.75} rotationIntensity={1} floatIntensity={2}>
       <ambientLight intensity={0.25} />
       <directionalLight position={[0, 0, 0.05]} />
-      <mesh castShadow receiveShadow scale={2.75}>
-        <icosahedronGeometry args={[1, 1]} />
+      <mesh castShadow receiveShadow scale={4}>
+        <boxGeometry args={[1, 1, 1]} />
         <meshStandardMaterial
           color='#211e35'
           opacity={0.28}
@@ -28,8 +28,8 @@ const Ball = (props) => {
           flatShading
         />
         <Decal
-          position={[0, 0, 1]}
-          rotation={[2 * Math.PI, 0, 6.25]}
+          position={[0, 0, 0.5]}
+          rotation={[0, Math.PI/4, 0]}
           scale={1}
           map={decal}
           flatShading
@@ -40,7 +40,7 @@ const Ball = (props) => {
   );
 };
 
-const BallCanvas = ({ icon }) => {
+const BoxCanvas = ({ icon }) => {
   return (
     <Canvas
       frameloop='demand'
@@ -49,7 +49,7 @@ const BallCanvas = ({ icon }) => {
     >
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls enableZoom={false} />
-        <Ball imgUrl={icon} />
+        <Box imgUrl={icon} />
       </Suspense>
 
       <Preload all />
@@ -57,4 +57,4 @@ const BallCanvas = ({ icon }) => {
   );
 };
 
-export default BallCanvas;
+export default BoxCanvas;

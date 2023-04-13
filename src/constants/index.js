@@ -43,20 +43,24 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Single Page Website",
       icon: web,
+      price: "4,999",
     },
     {
-      title: "React Native Developer",
+      title: "6 Page Website",
       icon: mobile,
+      price: "6,999",
     },
     {
-      title: "Backend Developer",
+      title: "Ecommerce Website",
       icon: backend,
+      price: "12,999",
     },
     {
-      title: "Content Creator",
+      title: "Application Development",
       icon: creator,
+      price: "39,999",
     },
   ];
 
