@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState } from 'react';
+import ReactDOM from 'react-dom';
 import Tilt from "react-tilt";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
@@ -7,15 +8,17 @@ import { meblue1 } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 import Typed from "react-typed";
+import Modal from 'react-modal';
+
+
+
 
 const ServiceCard = ({ index, title, icon, price }) => (
   <Tilt className='xs:w-[250px] w-full'>
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
       className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
-    >
-    
-
+    > 
       <div
         options={{
           max: 45,
@@ -35,12 +38,21 @@ const ServiceCard = ({ index, title, icon, price }) => (
         <h3 className='text-white text-[15px] font-bold text-center'>
           Starting From {price} INR
         </h3>
+        <a className="button-89" >Let's Do This</a>
       </div>
     </motion.div>
   </Tilt>
 );
 
 const About = ({ index, title, icon }) => {
+  const [modalIsOpen, setModalIsOpen] = useState(false);
+const openModal = () => {
+  setModalIsOpen(true);
+};
+
+const closeModal = () => {
+  setModalIsOpen(false);
+};
   return (
     <>
       <motion.div variants={textVariant()}>

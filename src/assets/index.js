@@ -11,9 +11,12 @@ import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
+import Bootstrap from "./tech/Bootstrap.png";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
+import PHP from "./tech/PHP.png";
+import Python from "./tech/Python.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
@@ -63,5 +66,8 @@ export {
   meblue1,
   laptophand2,
   m1,
-  m3
+  m3,
+  Bootstrap,
+  PHP,
+  Python
 };
